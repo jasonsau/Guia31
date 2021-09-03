@@ -1,0 +1,45 @@
+pais {
+    background-color: #5e81ac;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+pais::before {
+    content: attr(nombre);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+departamento {
+    display: block;
+    background-color: #81a1c1;
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+departamento::before {
+    content: attr(nombre);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+cabecera {
+    display: block;
+}
+
+habitantes {
+    display: block;
+}
+
+altura {
+    display: block;
+}
+
+codigodearea {
+    display: block;
+}

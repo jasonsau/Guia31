@@ -1,0 +1,12 @@
+{
+	"pais": {
+		"departamento": {
+			"cabecera": "San Salvador",
+			"habitantes": "1700000",
+			"altura": "545 MSNM",
+			"_id": "id",
+			"_nombre": "San Salvador"
+		},
+		"_nombre": "El salvador"
+	}
+}

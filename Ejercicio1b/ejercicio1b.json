@@ -1,0 +1,42 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Jason",
+				"apellido": "Martinez",
+				"dirrecion": "Mi casa",
+				"telefono": {
+					"_tipo": "celular",
+					"__text": "75053308"
+				},
+				"email": "ma17092@ues.edu.sv",
+				"url": "ma17092.com",
+				"_id": "2",
+				"_fechaingreso": "2/09/2021"
+			},
+			{
+				"nombre": "Veronica",
+				"apellido": "Raquel",
+				"dirrecion": "Su casa",
+				"telefono": {
+					"_tipo": "celular",
+					"__text": "65537898"
+				},
+				"email": "GG19002@ues.edu.sv",
+				"url": "GG19002.com",
+				"dui": "059095332",
+				"isss": "059095332",
+				"afp": "12345678",
+				"_id": "3",
+				"_fechaingreso": "2/09/2021"
+			}
+		]
+	}
+}

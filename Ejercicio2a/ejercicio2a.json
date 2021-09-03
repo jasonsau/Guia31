@@ -1,0 +1,24 @@
+{
+	"pais": {
+		"departamento": [
+			{
+				"cabecera": "San Salvador",
+				"habitantes": "1700000",
+				"altura": "545 MSNM",
+				"codigodearea": "503",
+				"_id": "1",
+				"_nombre": "San Salvador",
+				"_moneda": "Dolar Estadounidense"
+			},
+			{
+				"cabecera": "Santa Ana",
+				"habitantes": "272554",
+				"altura": "665 MSNM",
+				"codigodearea": "503",
+				"_id": "2",
+				"_nombre": "Santa Ana"
+			}
+		],
+		"_nombre": "El salvador"
+	}
+}

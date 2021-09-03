@@ -1,0 +1,32 @@
+{
+	"pais": {
+		"departamento": [
+			{
+				"nombre": "San Salvador",
+				"cabecera": "San Salvador",
+				"habitantes": "1700000",
+				"altura": "545 MSNM",
+				"codigodearea": "503",
+				"_id": "1",
+				"_moneda": "Dolar Estadounidense"
+			},
+			{
+				"nombre": "Santa Ana",
+				"cabecera": "Santa Ana",
+				"habitantes": "272554",
+				"altura": "665 MSNM",
+				"codigodearea": "503",
+				"_id": "2"
+			},
+			{
+				"nombre": "Sonsonate",
+				"cabecera": "Santa Ana",
+				"habitantes": "72951",
+				"altura": "220 MSNM",
+				"codigodearea": "503",
+				"_id": "2"
+			}
+		],
+		"_nombre": "El salvador"
+	}
+}

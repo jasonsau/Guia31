@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type = "text/css" href = "ejemplo2.css"?>
+
+<!-- ejemplo2.xml MA17092 -->
+
+<pais nombre = "El Salvador">
+    <departamento id = "1" nombre = "San Salvador">
+        <cabecera>San Salvador</cabecera>
+        <habitantes>1700000</habitantes>
+        <altura>545 MSNM</altura>
+    </departamento>
+</pais>

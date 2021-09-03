@@ -1,0 +1,57 @@
+pais {
+    background-color: #333;
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+pais[nombre]::before {
+    content: attr(nombre);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+departamento {
+    padding: 20px;
+    background-color: #000000;
+    display: block;
+    width: 400px;
+    height: 120px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+departamento::before {
+    content: "Departamento: " attr(nombre);
+    display: block;
+    margin-top: 10px;
+}
+
+cabecera {
+    display: block;
+}
+cabecera::before {
+    content: "Cabecera: ";
+    font-weight: 700;
+}
+
+habitantes {
+    display: block;
+}
+habitantes::before {
+    content: "Poblacion: ";
+    font-weight: 700;
+}
+
+altitud {
+    margin-top: 10px;
+    display: block;
+}
+altura::before {
+    content: "altura: ";
+    font-weight: 700;
+}

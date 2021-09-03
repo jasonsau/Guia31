@@ -1,0 +1,65 @@
+pais {
+    display: block;
+    background-color: #282828;
+    color: #ebdbb2;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+pais::before {
+    content: attr(nombre) " Moneda: " attr(moneda);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+departamento {
+    display: block;
+    margin: auto;
+    background-color: #458588;
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+nombre {
+    display: block;
+}
+
+nombre::before {
+    content: "Nombre: ";
+    font-weight: 700;
+}
+
+cabecera {
+    display: block;
+}
+
+cabecera::before {
+    content: "Cabecera: ";
+    font-weight: 700;
+}
+
+habitantes {
+    display: block;
+}
+
+habitantes::before {
+    content: "Habitantes: ";
+    font-weight: 700;
+}
+altura {
+    display: block;
+}
+
+altura::before {
+    content: "Altura: ";
+    font-weight: 700;
+}
+codigodearea {
+    display: block;
+}
+
+codigodearea::before {
+    content: "Codigo de Area: ";
+    font-weight: 700;
+}
